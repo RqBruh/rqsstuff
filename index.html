@@ -6,7 +6,13 @@
 <link rel="icon" type="imgg/png" sizes="16x16" href="imgg/16.png">
 <link rel="manifest" href="imgg/site.webmanifest">
 
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+    autoplay: "on",
+    splashScreen: false
+};
+</script>
   
 </head>
 <body>
@@ -15,10 +21,8 @@
 
 <embed
   src="imgg/меню сайт.swf"
-  type="application/x-shockwave-flash"
   width="500"
   height="100"
-  ruffle-config='{"autoplay": true}'
 />
 <br>
 <h1>Добро пожаловать на мой сайт!!!!111!!1</h1>
