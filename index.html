@@ -28,7 +28,15 @@ window.RufflePlayer.config = {
 <br>
 <h1>Добро пожаловать на мой сайт!!!!111!!1</h1>
 <br>
-<img src="imgg/Просто.gif" width="400" height="300">
+<img id="randomImage" src="imgg/просто.gif" alt="Рандомное фото">
+
+<script>
+  const images = ["imgg/лох.png", "imgg/pic2.jpg", "imgg/pic3.jpg"];
+  
+  const randomIndex = Math.floor(Math.random() * images.length);
+
+  document.getElementById("randomImage").src = images[randomIndex];
+</script>
 <br>
 <br>
 <h3>Моё имя Ярик, но в сети вы можете знать меня как YaRq, я очень ОЧЕНЬ люблю создавать анимации, сайты (наверно вы уже это поняли), а также снимать видео на свой крутой ютуб канал. Ещё мне очень нравятся эстетика и видео-игры начала 2000-х годов, люблю играть в team fortress 2, garry's mod, club penguin, roblox и не по теме игр ранее мной упомянутых, но всё же не могу не сказать про прекрасную игру "Яйцеоды 2"
