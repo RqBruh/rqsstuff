@@ -1,6 +1,11 @@
-body {
-.comic-relief-bold {
-  font-family: "Comic Relief", system-ui;
-  font-weight: 700;
+@font-face {
+  font-family: 'ComicSans';
+  src: url('imgg/comic-sans.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'ComicSans', sans-serif;
 }
