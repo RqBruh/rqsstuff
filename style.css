@@ -13,5 +13,7 @@ border: 8px #082912 solid;
 height: 400px;
 width: 600px;
 
-border: 8px #082912 solid;
+border-bottom: 8px #082912 solid;
+border-right: 8px #082912 solid;
+border-left: 8px #082912 solid;
 }
