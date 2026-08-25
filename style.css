@@ -1,3 +1,10 @@
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 }
+
+.block {
+height: 100px;
+width: 100px;
+
+border: 8px #082912 solid;
+}
