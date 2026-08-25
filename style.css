@@ -3,17 +3,8 @@ body {
 }
 
 .block {
-height: 180px;
+height: 500px;
 width: 600px;
 
 border: 8px #082912 solid;
-}
-
-.block1 {
-height: 200px;
-width: 600px;
-
-border-bottom: 8px #082912 solid;
-border-right: 8px #082912 solid;
-border-left: 8px #082912 solid;
 }
