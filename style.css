@@ -9,3 +9,25 @@ width: 600px;
 background-color: #22B14C;
 border: 8px #0F4D21 dashed;
 }
+.image-container {
+  position: relative; /* Точка отсчета для текста */
+  display: inline-block;
+}
+
+.bg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
