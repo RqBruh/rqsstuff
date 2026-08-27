@@ -6,9 +6,11 @@ body {
 height: 220px;
 width: 600px;
 
-background-color: #22B14C;
-border: 8px #0F4D21 dashed;
+background-color: #156E2F;
+background: #156E2F;
+background: linear-gradient(0deg,rgba(21, 110, 47, 1) 0%, rgba(52, 224, 101, 1) 100%);
 }
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -18,7 +20,7 @@ border: 8px #0F4D21 dashed;
 height: 780px;
 width: 720px;
 
-border: 5px #156E2F solid;
+border: 3px #156E2F solid;
 background: #156E2F;
 background: linear-gradient(0deg,rgba(21, 110, 47, 1) 0%, rgba(52, 224, 101, 1) 100%);
 }
