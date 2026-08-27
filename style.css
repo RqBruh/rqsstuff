@@ -18,6 +18,6 @@ border: 8px #0F4D21 dashed;
 height: 640px;
 width: 360px;
 
-background: linear-gradient(to bottom #115725, #31FF6D);
-border: 8px #0F4D21 dashed;
+background: linear-gradient (to bottom #115725, #31FF6D);
+border: 5px #0F4D21 solid;
 }
