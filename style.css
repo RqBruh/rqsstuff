@@ -15,9 +15,9 @@ border: 8px #0F4D21 dashed;
 }
 
 .bg {
-height: 640px;
-width: 360px;
+height: 1280px;
+width: 640px;
 
-background: linear-gradient (to bottom #115725, #31FF6D);
+background: linear-gradient (#115725, #31FF6D);
 border: 5px #0F4D21 solid;
 }
