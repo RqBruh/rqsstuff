@@ -6,7 +6,7 @@ body {
 height: 220px;
 width: 600px;
 
-background-color: #156E2F;
+border: 3px #156E2F solid;
 background: #156E2F;
 background: linear-gradient(0deg,rgba(21, 110, 47, 1) 0%, rgba(52, 224, 101, 1) 100%);
 }
