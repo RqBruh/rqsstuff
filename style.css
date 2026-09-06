@@ -47,17 +47,17 @@ background: linear-gradient(180deg,rgba(21, 110, 47, 1) 0%, rgba(52, 224, 101, 1
 }
 
 a {
-  color: #89FF48;
+  color: #FDFF4B;
   text-decoration: none;
 }
 
 a:visited {
-  color: #89FF48;
+  color: #FDFF4B;
   text-decoration: none; 
 }
 
 a:active {
-  color: #FDFF4B;
+  color: #FFF500;
   text-decoration: none;
 }
 
