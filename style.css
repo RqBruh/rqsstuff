@@ -62,6 +62,19 @@ a:visited {
 }
 
 a:active {
-  color: #BDFF2E;
+  color: #89FF48;
   text-decoration: none;
+}
+
+::selection {
+  background-color: #FD72FF;   /* цвет фона выделения */
+  color: #028D00;              /* цвет текста при выделении */
+}
+::-moz-selection {
+  background-color: #FD72FF;
+  color: #028D00;
+}
+::-webkit-selection {
+  background-color: #FD72FF;
+  color: #028D00;
 }
