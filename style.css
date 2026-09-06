@@ -51,11 +51,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #CAFF49;
-  text-decoration: none;
-}
-
 a:visited {
   color: #FDFF4B;
   text-decoration: none;
