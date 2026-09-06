@@ -45,3 +45,23 @@ background: #156E2F;
 background: #34E065;
 background: linear-gradient(180deg,rgba(21, 110, 47, 1) 0%, rgba(52, 224, 101, 1) 100%);
 }
+
+a {
+  color: #89FF48;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CAFF49;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FDFF4B;
+  text-decoration: none;
+}
+
+a:active {
+  color: #BDFF2E;
+  text-decoration: none;
+}
