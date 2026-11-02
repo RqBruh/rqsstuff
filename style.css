@@ -1,0 +1,101 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #22B14C;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: #22B14C;
+}
+
+body {
+font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+
+margin: 0;
+overflow-x: hidden;
+}
+
+::selection {
+  background-color: #FD72FF;
+  color: #028D00;
+}
+
+.tube {
+height: 230px;
+width: 1320px;
+
+border: 3px #636363 solid;
+background: #636363;
+background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
+}
+
+.flesheggs1 {
+height: 460px;
+width: 500px;
+
+border: 3px #636363 solid;
+background: #636363;
+background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
+}
+
+.flashplayer {
+height: 500px;
+width: 500px;
+
+border: 3px #636363 solid;
+background: #636363;
+background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
+}
+
+@keyframes moveLoop {
+  0% {
+    left: 0%;
+    transform: translateX(100%);
+  }
+  99% {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: -100%;
+    transform: translateX(9999%);
+  }
+}
+
+.run {
+  animation: moveLoop 2s linear infinite;
+}
+
+a {
+  color: ##FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: ##FFFFFF;
+  text-decoration: none; 
+}
+
+a:active {
+  color: #ED1C24;
+  text-decoration: none;
+}
+
+.blog {
+height: 810px;
+width: 777px;
+
+border: 3px #636363 solid;
+background: #636363;
+background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
+}
