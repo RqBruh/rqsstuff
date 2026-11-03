@@ -1,10 +1,8 @@
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #22B14C;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     color: #f2f2f2;
     padding: 14px 16px;
@@ -12,7 +10,6 @@
     font-size: 20px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #f2f2f2;
     color: #22B14C;
@@ -98,4 +95,8 @@ width: 777px;
 border: 3px #636363 solid;
 background: #636363;
 background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
+}
+
+#follower {
+  transition: left 0.1s ease-out, top 0.1s ease-out;
 }
