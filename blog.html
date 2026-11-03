@@ -8,6 +8,24 @@
         margin: 0;
         padding: 0;
       }
+
+      body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: #111;
+    }
+
+    #follower {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9999;
+    }
     </style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -20,6 +38,21 @@
 
 <body>
 <body style = "background-color: #333">
+
+<img id="follower" src="img/маленьк.png" width = "77">
+
+  <script>
+    const follower = document.getElementById('follower');
+
+    document.addEventListener('mousemove', (e) => {
+      const x = e.clientX;
+      const y = e.clientY;
+
+      follower.style.left = `${x}px`;
+      follower.style.top = `${y}px`;
+    });
+  </script>
+   
 <center>
 <div class = "topnav">
   <a class = "active" href="index.html">Главная</a>
