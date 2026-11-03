@@ -2,6 +2,26 @@
 <head>
 <title>Rq's stuff | -Крипер просто не видит меня😊 -💥</title>
 
+<style>
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: #FFFFFF;
+    }
+
+    #follower {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9999;
+    }
+</style>
+
 <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -11,6 +31,21 @@
 </head>
 
 <body>
+
+<img id="follower" src="img/маленьк.png" width = "77">
+
+  <script>
+    const follower = document.getElementById('follower');
+
+    document.addEventListener('mousemove', (e) => {
+      const x = e.clientX;
+      const y = e.clientY;
+
+      follower.style.left = `${x}px`;
+      follower.style.top = `${y}px`;
+    });
+  </script>
+  
 <center>
 <h1>СМЕШНОЙ МЕМ ЗАПИСЬ <a href = "https://mcserv.gt.tc">МАеНКРАФТ СЕРВЕР XDEVSTER'А!!!</a></h1>
 <video src = "img/крипер меня не видит просто....mp4" width = "720" controls>Не увидишь мемас
