@@ -7,12 +7,46 @@
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 <link rel="manifest" href="img/site.webmanifest">
 
+<style>
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: #111;
+    }
+
+    #follower {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9999;
+    }
+</style>
+
 <link rel = "stylesheet" href = "style.css">
 </head>
   
 <body>
 <body background = img/88.png>
 
+<img id="follower" src="img/маленьк.png" width = "77">
+
+  <script>
+    const follower = document.getElementById('follower');
+
+    document.addEventListener('mousemove', (e) => {
+      const x = e.clientX;
+      const y = e.clientY;
+
+      follower.style.left = `${x}px`;
+      follower.style.top = `${y}px`;
+    });
+  </script>
+  
 <center>
 <br>
 <a href = "index.html">
