@@ -98,7 +98,3 @@ border: 3px #636363 solid;
 background: #636363;
 background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
 }
-
-#follower {
-transition: left 0.1s ease-out, top 0.1s ease-out;
-}
