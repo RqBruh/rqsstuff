@@ -20,6 +20,8 @@ font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 
 margin: 0;
 overflow-x: hidden;
+
+cursor: url('img/маленьк.png') 16 16, auto;
 }
 
 ::selection {
