@@ -98,35 +98,3 @@ border: 3px #636363 solid;
 background: #636363;
 background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
 }
-
-.flying-img {
-  position: fixed;
-  width: 100px;
-  height: auto;
-  z-index: 9999;
-  
-  animation: fly 10s infinite linear; 
-}
-
-@keyframes fly {
-  0% {
-    top: -10%;
-    left: -10%;
-  }
-  25% {
-    top: 50%;
-    left: 10%;
-  }
-  50% {
-    top: 0%;
-    left: 50%;
-  }
-  75% {
-    top: 40%;
-    left: 10%;
-  }
-  100% {
-    top: 0%;
-    left: 0%;
-  }
-}
