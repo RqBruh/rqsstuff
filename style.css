@@ -110,23 +110,23 @@ background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 
 
 @keyframes fly {
   0% {
-    top: 10%;
-    left: 10%;
+    top: -10%;
+    left: -10%;
   }
   25% {
-    top: 80%;
-    left: 40%;
+    top: 50%;
+    left: 10%;
   }
   50% {
-    top: 30%;
-    left: 80%;
+    top: 0%;
+    left: 50%;
   }
   75% {
-    top: 70%;
-    left: 20%;
+    top: 40%;
+    left: 10%;
   }
   100% {
-    top: 10%;
-    left: 10%;
+    top: 0%;
+    left: 0%;
   }
 }
