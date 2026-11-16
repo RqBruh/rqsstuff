@@ -1,20 +1,3 @@
-.topnav {
-    background-color: #22B14C;
-    overflow: hidden;
-}
-
-.topnav a {
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.topnav a:hover {
-    background-color: #f2f2f2;
-    color: #22B14C;
-}
-
 body {
 font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 
@@ -25,33 +8,6 @@ overflow-x: hidden;
 ::selection {
   background-color: #FD72FF;
   color: #028D00;
-}
-
-.tube {
-height: 230px;
-width: 1320px;
-
-border: 3px #636363 solid;
-background: #636363;
-background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
-}
-
-.flesheggs1 {
-height: 460px;
-width: 500px;
-
-border: 3px #636363 solid;
-background: #636363;
-background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
-}
-
-.flashplayer {
-height: 500px;
-width: 500px;
-
-border: 3px #636363 solid;
-background: #636363;
-background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
 }
 
 @keyframes moveLoop {
@@ -74,27 +30,7 @@ background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 
 }
 
 a {
-  color: ##FFFFFF;
   text-decoration: none;
-}
-
-a:visited {
-  color: ##FFFFFF;
-  text-decoration: none; 
-}
-
-a:active {
-  color: #ED1C24;
-  text-decoration: none;
-}
-
-.blog {
-height: 810px;
-width: 777px;
-
-border: 3px #636363 solid;
-background: #636363;
-background: linear-gradient(0deg,rgba(99, 99, 99, 1) 0%, rgba(127, 127, 127, 1) 100%);
 }
 
 .bthn {
